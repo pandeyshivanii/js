@@ -32,3 +32,19 @@ const MyFunction = function(){
 
 // to study
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//******************************MEMEORY*******************
+
+// Stack(Primitive) , Heap(Non-Primiitve)
+
+let myYoutubeName = "shivanipandeyoutube"
+
+let anotherName = myYoutubeName
+anotherName = "shivaniyoutube"
+
+console.log(myYoutubeName) //ouutput-> shivanipandeyoutube
+console.log(anotherName) // output-> shivaniyoutube
+
+//In short in Stack we get the copy of the value so if you'll make any changes in the original value, the copied value won't change. So it follows "call by value".
+//In short in Heap we directly get the access to original value and if we'll make any changes to it, every value will be changed.
+
